@@ -11,10 +11,10 @@
 				"value": "private"
 			}
 		],
-		"description": "This is the product for Test",
+		"description": "This is the product for ${{FDAPG_ENV}}",
 		"displayName": "SampleAPIGEEProduct1",
 		"environments": [
-			"test"
+			"${{FDAPG_ENV}}"
 		],
 		"name": "SampleAPIGEEProduct1",
 		"proxies": [
