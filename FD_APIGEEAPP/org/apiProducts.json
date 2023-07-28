@@ -1,0 +1,28 @@
+[
+	{
+		"apiResources": [
+			"/test21",
+            "/test22",			
+		],
+		"approvalType": "auto",
+		"attributes": [
+			{
+				"name": "access",
+				"value": "private"
+			}
+		],
+		"description": "This is the product for Test",
+		"displayName": "SampleAPIGEEProduct1",
+		"environments": [
+			"test"
+		],
+		"name": "SampleAPIGEEProduct1",
+		"proxies": [
+			"forecastweatherapi"
+		],
+		"paths": [
+			"/getProperties"
+		],
+		"scopes": []
+	}
+]
